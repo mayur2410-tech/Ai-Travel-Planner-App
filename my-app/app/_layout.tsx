@@ -11,5 +11,12 @@ export default function RootLayout() {
     'outfit-light':require('./../assets/fonts/Outfit-Light.ttf'),
     'outfit-space':require('./../assets/fonts/SpaceMono-Regular.ttf'),
   })
-  return <Stack />;
+  return (
+    <Stack screenOptions={{
+      headerShown: false,
+    }
+    }>
+      <Stack.Screen name="(tabs)" />
+    </Stack>
+  );
 }

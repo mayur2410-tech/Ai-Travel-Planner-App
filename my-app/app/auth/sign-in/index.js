@@ -29,7 +29,7 @@ export default function SignIn() {
       await signInWithEmailAndPassword(auth, email, password);
       ToastAndroid.show('Login Successful', ToastAndroid.LONG);
       // Navigate to dashboard or home
-      router.replace('/(tabs)/home'); // Change to your real route
+      router.replace('/mytrip'); // Change to your real route
     } catch (err) {
   if (err.code === 'auth/user-not-found') {
     ToastAndroid.show('User not registered', ToastAndroid.LONG);

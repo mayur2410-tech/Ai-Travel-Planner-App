@@ -35,7 +35,7 @@ export default function SignUp() {
       });
 
       Alert.alert('Account Created!');
-      router.replace('/auth/sign-in'); // or go to dashboard
+      router.replace('/mytrip'); // or go to dashboard
     } catch (error) {
       Alert.alert('Error', error.message);
     }
