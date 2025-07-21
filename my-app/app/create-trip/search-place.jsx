@@ -162,7 +162,7 @@ export default function Searchplace() {
 
   const { tripData, setTripData } = useContext(CreateTripContext);
 
-  const useMock = true; // Set to false to use real API
+  const useMock = false; // Set to false to use real API
 
   useEffect(() => {
     navigation.setOptions({
@@ -181,22 +181,34 @@ export default function Searchplace() {
         // Mocked test data
         const mockData = [
           {
-            name: 'Taj Mahal',
+            name: 'Goa, India',
+            coordinates: { lat: 27.1751, lng: 78.0421 },
+            photoRef: null,
+            url: 'place_id_0',
+          },
+          {
+            name: 'NEW YORK, NY, USA',
             coordinates: { lat: 27.1751, lng: 78.0421 },
             photoRef: null,
             url: 'place_id_1',
           },
           {
+            name: 'Taj Mahal',
+            coordinates: { lat: 27.1751, lng: 78.0421 },
+            photoRef: null,
+            url: 'place_id_2',
+          },
+          {
             name: 'Gateway of India',
             coordinates: { lat: 18.921984, lng: 72.834654 },
             photoRef: null,
-            url: 'place_id_2',
+            url: 'place_id_3',
           },
           {
             name: 'India Gate',
             coordinates: { lat: 28.612864, lng: 77.229316 },
             photoRef: null,
-            url: 'place_id_3',
+            url: 'place_id_4',
           },
         ];
 

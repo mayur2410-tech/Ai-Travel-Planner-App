@@ -1,11 +1,14 @@
 import { Text, View } from "react-native";
-import Login from "./../components/Login";
+import Login from "../components/Login";
 import {auth} from '../configs/firebaseConfig'
 import { Redirect } from "expo-router";
+import { getAuth } from "firebase/auth";
 export default function Index() {
 
+  const auth = getAuth();
 
-  const user = auth.currentUser;
+const userEmail = auth.currentUser?.email
+  console.log("user email : ",userEmail);
   return (
     <View
       style={{
@@ -14,11 +17,12 @@ export default function Index() {
       }}
     >
 
-      {user?
-      <Redirect href={'/mytrip'} />:
-           <Login />
+      {userEmail?
+         
+     <Redirect href={'/(tabs)/mytrip'} />:   <Login /> 
 
     }
+ 
     </View>
   );
 }

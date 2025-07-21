@@ -19,6 +19,7 @@ export default function StartNewTripCard() {
       <Text style={{
         fontFamily: 'outfit-medium',
         fontSize: 25,
+        marginLeft:12
       }}>No trips planned yet</Text>
       <Text style={{
         fontFamily: 'outfit-light',
@@ -43,7 +44,7 @@ export default function StartNewTripCard() {
           fontFamily: 'outfit-medium',
           fontSize: 17
         }}>
-          Start a new trip
+            Start  a new trip
         </Text>
       </TouchableOpacity>
 

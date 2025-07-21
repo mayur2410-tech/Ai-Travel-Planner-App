@@ -1,0 +1,327 @@
+{
+    "GOA_DATA":{
+  "travelPlan": {
+    "location": "Goa, India",
+    "duration": "4 Days and 3 Nights",
+    "travelerType": "Friends",
+    "budget": "Luxury",
+    "bestTimeToVisit": "October to March",
+    "notes": "All prices mentioned are estimates and subject to change based on booking time, season, and availability. It is recommended to book flights and hotels in advance. The itinerary is a suggestion and can be customized. A private luxury car with a driver is recommended for the entire trip for seamless travel."
+  },
+  "flightDetails": {
+    "airline": "Vistara",
+    "flightNumber": "UK 861 (Sample)",
+    "departureAirport": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM)",
+    "arrivalAirport": "Dabolim Airport, Goa (GOI)",
+    "departureTime": "2024-10-25T09:30:00+05:30",
+    "arrivalTime": "2024-10-25T10:45:00+05:30",
+    "duration": "1 Hour 15 Minutes",
+    "price": "Approx. ₹12,000 - ₹18,000 per person (One-way, Premium Economy/Business Class)",
+    "bookingUrl": "https://www.airvistara.com"
+  },
+  "hotelOptions": [
+    {
+      "hotelName": "W Goa",
+      "address": "Vagator Beach, Bardez, Goa, 403509, India",
+      "pricePerNight": "Approx. ₹30,000 - ₹45,000",
+      "imageUrl": "https://media.cntraveller.in/wp-content/uploads/2017/04/W-Goa-Exterior-lead-1366x768.jpg",
+      "geoCoordinates": {
+        "latitude": 15.59791,
+        "longitude": 73.74308
+      },
+      "rating": 4.6,
+      "description": "A vibrant and chic luxury resort overlooking Vagator Beach. Known for its modern design, lively atmosphere, Rock Pool, and proximity to North Goa's party hubs. Perfect for friends looking for a trendy and energetic stay."
+    },
+    {
+      "hotelName": "The Leela Goa",
+      "address": "Mobor, Cavelossim, Salcette, Goa, 403731, India",
+      "pricePerNight": "Approx. ₹28,000 - ₹40,000",
+      "imageUrl": "https://www.theleela.com/prod/content/assets/styles/tl_1920_735_webp/public/2022-04/The-Leela-Goa-Aerial-View.jpg.webp?VersionId=wW712vI.4U30j5b8q8n.hC60XjJp6P8I",
+      "geoCoordinates": {
+        "latitude": 15.1583,
+        "longitude": 73.9317
+      },
+      "rating": 4.7,
+      "description": "Nestled between the Sal River and the Arabian Sea, this opulent resort sprawls across 75 acres of lush gardens. It offers a private beach, a 12-hole golf course, and unparalleled serene luxury, ideal for relaxation."
+    },
+    {
+      "hotelName": "Taj Fort Aguada Resort & Spa",
+      "address": "Sinquerim Beach, Candolim, Goa, 403515, India",
+      "pricePerNight": "Approx. ₹25,000 - ₹38,000",
+      "imageUrl": "https://img.vistarooms.com/images/listings/2022-09-17/large/5-1663412579-Y4r.jpg",
+      "geoCoordinates": {
+        "latitude": 15.4967,
+        "longitude": 73.7663
+      },
+      "rating": 4.6,
+      "description": "Built on the ramparts of a 16th-century Portuguese fortress, this iconic resort offers panoramic ocean views and a unique blend of history and luxury. Its location is perfect for exploring both North and South Goa."
+    }
+  ],
+  "dailyItinerary": [
+    {
+      "day": 1,
+      "theme": "Arrival in North Goa & Sunset Vibes",
+      "schedule": [
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "activity": "Arrival & Luxury Transfer",
+          "place": {
+            "placeName": "Goa International Airport (GOI) to W Goa",
+            "placeDetails": "Arrive at Goa Airport, where your pre-booked luxury car will be waiting. Enjoy a comfortable 1.5-hour drive to your hotel in North Goa.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Dabolim_Airport_new_terminal_building.jpg/1280px-Dabolim_Airport_new_terminal_building.jpg",
+            "geoCoordinates": {
+              "latitude": 15.3808,
+              "longitude": 73.8314
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "N/A"
+          }
+        },
+        {
+          "time": "12:30 PM - 03:00 PM",
+          "activity": "Check-in & Relaxation",
+          "place": {
+            "placeName": "W Goa, Vagator",
+            "placeDetails": "Check into the stunning W Goa. Settle in, explore the property, and take a dip in their iconic Rock Pool while sipping on cocktails.",
+            "imageUrl": "https://assets.gqindia.com/photos/5cdc01357835672a569779de/16:9/w_1920,c_limit/W-Goa-hotel-top-image.jpg",
+            "geoCoordinates": {
+              "latitude": 15.59791,
+              "longitude": 73.74308
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "Approx. 1.5 Hours"
+          }
+        },
+        {
+          "time": "03:00 PM - 05:00 PM",
+          "activity": "Gourmet Lunch",
+          "place": {
+            "placeName": "The Kitchen Table @ W Goa",
+            "placeDetails": "Enjoy a lavish and eclectic lunch at the hotel's all-day dining restaurant, offering global cuisine with a modern twist.",
+            "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/3f/8a/89/the-kitchen-table-outdoor.jpg",
+            "geoCoordinates": {
+              "latitude": 15.59791,
+              "longitude": 73.74308
+            },
+            "ticketPrice": "Approx. ₹2,500 - ₹4,000 per person",
+            "travelTimeFromPrevious": "0 Minutes"
+          }
+        },
+        {
+          "time": "05:00 PM - 08:00 PM",
+          "activity": "Sunset at the Beach",
+          "place": {
+            "placeName": "Vagator Beach",
+            "placeDetails": "Take a short walk down to the beautiful Vagator Beach. Explore the rocky cliffs and enjoy a mesmerizing sunset over the Arabian Sea.",
+            "imageUrl": "https://www.holidify.com/images/cmsuploads/compressed/2310_20190412122606.jpg",
+            "geoCoordinates": {
+              "latitude": 15.6025,
+              "longitude": 73.7335
+            },
+            "ticketPrice": "Free",
+            "travelTimeFromPrevious": "Approx. 5-10 Minutes Walk"
+          }
+        },
+        {
+          "time": "08:30 PM onwards",
+          "activity": "Iconic Dinner Experience",
+          "place": {
+            "placeName": "Thalassa",
+            "placeDetails": "Head to the legendary Greek restaurant, Thalassa, for dinner. Known for its cliff-top location, stunning sunset views, live performances, and authentic Greek food. Reservations are highly recommended.",
+            "imageUrl": "https://media.cntraveller.in/wp-content/uploads/2021/01/Thalassa-Goa-1366x768.jpg",
+            "geoCoordinates": {
+              "latitude": 15.5996,
+              "longitude": 73.7383
+            },
+            "ticketPrice": "Approx. ₹3,000 - ₹5,000 per person",
+            "travelTimeFromPrevious": "Approx. 10 Minutes Drive"
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "North Goa Adventure & Nightlife",
+      "schedule": [
+        {
+          "time": "10:00 AM - 12:00 PM",
+          "activity": "Historical Vistas",
+          "place": {
+            "placeName": "Chapora Fort",
+            "placeDetails": "Visit the iconic 'Dil Chahta Hai' fort. It offers breathtaking panoramic views of the Chapora River meeting the Arabian Sea. The climb is short and worth the view.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Chapora_Fort_Goa_India.jpg/1200px-Chapora_Fort_Goa_India.jpg",
+            "geoCoordinates": {
+              "latitude": 15.6052,
+              "longitude": 73.7351
+            },
+            "ticketPrice": "Free",
+            "travelTimeFromPrevious": "Approx. 15 Minutes Drive"
+          }
+        },
+        {
+          "time": "12:30 PM - 04:00 PM",
+          "activity": "Beach Fun & Watersports",
+          "place": {
+            "placeName": "Baga Beach",
+            "placeDetails": "Head to the lively Baga Beach. Indulge in luxury watersports like parasailing, jet-skiing, or even a private yacht experience. Post-adventure, have lunch at one of Goa's most famous beach shacks, Britto's.",
+            "imageUrl": "https://images.thrillophilia.com/image/upload/s--3WJqcdIS--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/013/619/original/1585834855_shutterstock_1117565360.jpg.jpg",
+            "geoCoordinates": {
+              "latitude": 15.5562,
+              "longitude": 73.7517
+            },
+            "ticketPrice": "Watersports approx. ₹1,500 - ₹5,000 per person",
+            "travelTimeFromPrevious": "Approx. 30 Minutes Drive"
+          }
+        },
+        {
+          "time": "04:00 PM - 07:00 PM",
+          "activity": "Retail Therapy & Relaxation",
+          "place": {
+            "placeName": "Return to Hotel / Local Boutiques",
+            "placeDetails": "Head back to the hotel to relax and freshen up. You can also explore some of the chic boutiques in the Calangute-Baga area for some upscale shopping.",
+            "imageUrl": "https://media.timeout.com/images/105436691/750/422/image.jpg",
+            "geoCoordinates": {
+              "latitude": 15.551,
+              "longitude": 73.758
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "Approx. 30 Minutes Drive"
+          }
+        },
+        {
+          "time": "09:00 PM onwards",
+          "activity": "Clubbing by the Water",
+          "place": {
+            "placeName": "LPK Waterfront",
+            "placeDetails": "Experience Goa's vibrant nightlife at LPK (Love Passion Karma). This unique club is sculpted into a rock face and located on the banks of the Nerul River, offering a surreal party experience with great music.",
+            "imageUrl": "https://imgmedia.lbb.in/media/2019/08/5d41d15c0e25b7468641113b_1564594524177.jpg",
+            "geoCoordinates": {
+              "latitude": 15.4925,
+              "longitude": 73.8066
+            },
+            "ticketPrice": "Approx. ₹2,000 - ₹4,000 per couple (cover charge)",
+            "travelTimeFromPrevious": "Approx. 30 Minutes Drive"
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Serene South Goa & High-Stakes Fun",
+      "schedule": [
+        {
+          "time": "11:00 AM - 01:30 PM",
+          "activity": "Check-out & Travel to South Goa",
+          "place": {
+            "placeName": "Drive from North to South Goa",
+            "placeDetails": "After a leisurely breakfast, check out from W Goa. Enjoy the scenic drive from the bustling North to the tranquil South. The journey itself is an experience, showcasing the changing landscapes of Goa.",
+            "imageUrl": "https://www.thegoavilla.com/static/goa/goa-coconut-trees-road-1.jpg",
+            "geoCoordinates": {
+              "latitude": 15.35,
+              "longitude": 73.9
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "N/A"
+          }
+        },
+        {
+          "time": "01:30 PM - 03:00 PM",
+          "activity": "Check-in to Paradise",
+          "place": {
+            "placeName": "The Leela Goa, Cavelossim",
+            "placeDetails": "Check in to the magnificent The Leela Goa. You'll be greeted by sprawling lagoons, lush gardens, and Portuguese-inspired architecture. Have lunch at one of their exquisite restaurants.",
+            "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491972864.jpg?k=b19d7b42d7da9b80abf37c35e39cd8e4f55f6534226bb8540c95cc79b9b5f4be&o=&hp=1",
+            "geoCoordinates": {
+              "latitude": 15.1583,
+              "longitude": 73.9317
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "Approx. 2 Hours Drive"
+          }
+        },
+        {
+          "time": "03:00 PM - 06:00 PM",
+          "activity": "Pristine Beach & Spa",
+          "place": {
+            "placeName": "Mobor Beach & Hotel Spa",
+            "placeDetails": "Relax at the pristine and private Mobor Beach. Afterwards, indulge in a rejuvenating and luxurious spa therapy session at the hotel's world-class spa.",
+            "imageUrl": "https://www.theleela.com/prod/content/assets/styles/tl_1920_735_webp/public/2022-04/The-Leela-Goa-Spa.jpg.webp?VersionId=43h7z3iK8.rJkG.m9J5U75hR8u_1c32R",
+            "geoCoordinates": {
+              "latitude": 15.155,
+              "longitude": 73.930
+            },
+            "ticketPrice": "Spa costs extra",
+            "travelTimeFromPrevious": "0 Minutes"
+          }
+        },
+        {
+          "time": "07:00 PM onwards",
+          "activity": "Casino Royale Experience",
+          "place": {
+            "placeName": "Deltin Royale Casino",
+            "placeDetails": "Get dressed up for a glamorous evening at Deltin Royale, India's largest offshore luxury gaming and entertainment destination. The entry package includes unlimited food, premium drinks, entertainment, and playing chips. It's anchored in the Mandovi River in Panjim.",
+            "imageUrl": "https://www.deltin.com/wp-content/uploads/2022/10/About-Us-Deltin-Royale.jpg",
+            "geoCoordinates": {
+              "latitude": 15.4989,
+              "longitude": 73.8277
+            },
+            "ticketPrice": "Approx. ₹4,000 - ₹8,000 per person (packages vary)",
+            "travelTimeFromPrevious": "Approx. 1 - 1.5 Hours Drive"
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Leisurely Breakfast & Departure",
+      "schedule": [
+        {
+          "time": "09:00 AM - 11:00 AM",
+          "activity": "Lavish Breakfast & Last Dip",
+          "place": {
+            "placeName": "The Leela Goa",
+            "placeDetails": "Enjoy a final, sumptuous breakfast at the resort. Take one last walk on the beach or a dip in the stunning lagoon-style pool.",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c9/29/e5/the-restaurant.jpg?w=1200&h=-1&s=1",
+            "geoCoordinates": {
+              "latitude": 15.1583,
+              "longitude": 73.9317
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "N/A"
+          }
+        },
+        {
+          "time": "11:00 AM - 12:00 PM",
+          "activity": "Check-out",
+          "place": {
+            "placeName": "The Leela Goa",
+            "placeDetails": "Complete the check-out formalities. Your luxury car will be ready to transfer you to the airport.",
+            "imageUrl": "https://media.architecturaldigest.in/wp-content/uploads/2018/06/the-leela-goa-866x487.jpg",
+            "geoCoordinates": {
+              "latitude": 15.1583,
+              "longitude": 73.9317
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "0 Minutes"
+          }
+        },
+        {
+          "time": "12:00 PM - 01:00 PM",
+          "activity": "Transfer to Airport",
+          "place": {
+            "placeName": "Drive to Goa International Airport (GOI)",
+            "placeDetails": "A comfortable drive back to the airport, filled with memories of an incredible luxury trip with your friends.",
+            "imageUrl": "https://content.jdmagicbox.com/comp/goa/l1/0832p832.832.180120190538.g2l1/catalogue/goa-international-airport-dabolim-goa-airport-3yry3.jpg",
+            "geoCoordinates": {
+              "latitude": 15.3808,
+              "longitude": 73.8314
+            },
+            "ticketPrice": "N/A",
+            "travelTimeFromPrevious": "Approx. 1 Hour Drive"
+          }
+        }
+      ]
+    }
+  ]
+}
+}

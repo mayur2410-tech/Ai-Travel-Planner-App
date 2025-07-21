@@ -1,0 +1,241 @@
+{
+ "USA_DATA":    {
+  "travelPlan": {
+    "location": "New York, NY, USA",
+    "duration": "4 Days and 3 Nights",
+    "travelerType": "Couple",
+    "budget": "Moderate",
+    "bestTimeToVisit": "Fall (September to November) offers pleasant weather, beautiful foliage in Central Park, and fewer crowds than summer. Spring (April to June) is also a great alternative.",
+    "flightDetails": {
+      "airline": "JetBlue Airways",
+      "flightNumber": "B6 510 (Example)",
+      "departureAirport": "Chicago O'Hare (ORD)",
+      "arrivalAirport": "John F. Kennedy (JFK)",
+      "departureDateTime": "2024-10-10T08:00:00Z",
+      "arrivalDateTime": "2024-10-10T11:30:00Z",
+      "price": "Approx. $350 - $450 USD per person (Round Trip)",
+      "bookingUrl": "https://www.google.com/flights"
+    },
+    "hotelOptions": [
+      {
+        "hotelName": "Arlo SoHo",
+        "address": "231 Hudson St, New York, NY 10013",
+        "pricePerNight": "Approx. $300 - $400 USD",
+        "imageUrl": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+        "geoCoordinates": {
+          "latitude": 40.7253,
+          "longitude": -74.0089
+        },
+        "rating": 4.3,
+        "description": "A trendy hotel with thoughtfully designed micro-rooms, a vibrant social scene, multiple bars (including a rooftop), and a prime location for exploring downtown Manhattan."
+      },
+      {
+        "hotelName": "CitizenM Bowery Hotel",
+        "address": "189 Bowery, New York, NY 10002",
+        "pricePerNight": "Approx. $280 - $380 USD",
+        "imageUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbb5ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+        "geoCoordinates": {
+          "latitude": 40.7208,
+          "longitude": -73.9932
+        },
+        "rating": 4.5,
+        "description": "A stylish, high-tech hotel featuring compact yet luxurious rooms controlled by an app, a stunning rooftop bar with panoramic city views, and a vibrant, art-filled lobby."
+      },
+      {
+        "hotelName": "The Hoxton, Williamsburg",
+        "address": "97 Wythe Ave, Brooklyn, NY 11249",
+        "pricePerNight": "Approx. $350 - $450 USD",
+        "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+        "geoCoordinates": {
+          "latitude": 40.7215,
+          "longitude": -73.9579
+        },
+        "rating": 4.6,
+        "description": "Located in the heart of trendy Williamsburg, this hotel offers chic rooms, incredible Manhattan skyline views from its rooftop bar, and a sophisticated yet relaxed atmosphere."
+      }
+    ],
+    "dailyItinerary": [
+      {
+        "day": 1,
+        "theme": "Arrival & Midtown Marvels",
+        "schedule": [
+          {
+            "timeOfDay": "Afternoon (12:00 PM - 2:00 PM)",
+            "activity": "Arrival and Hotel Check-in",
+            "placeName": "JFK to Hotel",
+            "placeDetails": "Arrive at JFK Airport. Take a yellow cab (flat fare approx. $70 + tolls/tip), Uber/Lyft, or the more budget-friendly AirTrain and subway (approx. 1.5 hours) to your hotel. Settle in and drop off your luggage.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1560298494-0a3d46383780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.6413,
+              "longitude": -73.7781
+            },
+            "ticketPrice": "Varies (Taxi ~$75, Subway ~$11)",
+            "travelTimeToNextLocation": "Varies based on hotel"
+          },
+          {
+            "timeOfDay": "Afternoon (2:30 PM - 5:00 PM)",
+            "activity": "Explore Times Square & Bryant Park",
+            "placeName": "Times Square",
+            "placeDetails": "Dive headfirst into the energy of NYC. Experience the dazzling billboards and bustling crowds. It's a must-see, even if just for a short while. Then, walk a few blocks to the much calmer Bryant Park, an urban oasis perfect for relaxing and people-watching.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1543355 269-3239a7a1cb84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7580,
+              "longitude": -73.9855
+            },
+            "ticketPrice": "Free",
+            "travelTimeToNextLocation": "15-20 minutes walk"
+          },
+          {
+            "timeOfDay": "Evening (6:00 PM onwards)",
+            "activity": "Dinner and a Broadway Show",
+            "placeName": "Broadway (Theater District)",
+            "placeDetails": "Experience the magic of a world-class Broadway performance. For moderate-budget tickets, check the TKTS booth in Times Square for same-day discounts. Enjoy a pre-theater dinner at one of the many restaurants in the Theater District or Hell's Kitchen.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1606536962458-ef6817a27527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7590,
+              "longitude": -73.9845
+            },
+            "ticketPrice": "$70 - $200+ per person (check TKTS for discounts)",
+            "travelTimeToNextLocation": "N/A"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "theme": "Icons, History & Skylines",
+        "schedule": [
+          {
+            "timeOfDay": "Morning (9:00 AM - 1:00 PM)",
+            "activity": "Visit the Statue of Liberty & Ellis Island",
+            "placeName": "Statue of Liberty National Monument",
+            "placeDetails": "Take a ferry from Battery Park to these two iconic American landmarks. Book tickets well in advance online to avoid long lines. This is a half-day commitment but offers incredible history and views.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1596701836548-9365c01b693e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.6892,
+              "longitude": -74.0445
+            },
+            "ticketPrice": "Approx. $24.50 per person (for ferry and grounds access)",
+            "travelTimeToNextLocation": "15 minutes walk"
+          },
+          {
+            "timeOfDay": "Afternoon (1:30 PM - 4:00 PM)",
+            "activity": "Reflect at the 9/11 Memorial & Museum",
+            "placeName": "9/11 Memorial & Museum",
+            "placeDetails": "A powerful and moving experience. The outdoor Memorial Pools are free to visit. The underground Museum provides a comprehensive and solemn account of the events. Also, see the architectural marvel of the Oculus transportation hub nearby.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1590168314293-9c52373347b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7115,
+              "longitude": -74.0132
+            },
+            "ticketPrice": "Memorial is Free; Museum is approx. $29 per person",
+            "travelTimeToNextLocation": "20 minutes walk"
+          },
+          {
+            "timeOfDay": "Evening (5:00 PM - 8:00 PM)",
+            "activity": "Sunset Walk Across the Brooklyn Bridge",
+            "placeName": "Brooklyn Bridge",
+            "placeDetails": "Walk from Manhattan towards Brooklyn for breathtaking sunset views of the downtown skyline. This is a quintessential NYC experience and a perfect photo opportunity. Once in Brooklyn, explore the charming DUMBO neighborhood and have dinner with a view.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1519759167395-d0c352a1293a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1796&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7061,
+              "longitude": -73.9969
+            },
+            "ticketPrice": "Free",
+            "travelTimeToNextLocation": "N/A"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "theme": "Art, Parks & Village Charm",
+        "schedule": [
+          {
+            "timeOfDay": "Morning (10:00 AM - 1:00 PM)",
+            "activity": "Immerse Yourself in Art at The Met",
+            "placeName": "The Metropolitan Museum of Art",
+            "placeDetails": "One of the world's greatest art museums. You can't see it all, so pick a few wings that interest you, like the Egyptian Art in the Temple of Dendur, European Paintings, or the American Wing. Don't miss the rooftop garden for stunning views of Central Park (seasonal).",
+            "placeImageUrl": "https://images.unsplash.com/photo-1605333229643-85e3a3c871b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7794,
+              "longitude": -73.9632
+            },
+            "ticketPrice": "$30 per person (for non-NY residents)",
+            "travelTimeToNextLocation": "1 minute walk"
+          },
+          {
+            "timeOfDay": "Afternoon (1:00 PM - 4:00 PM)",
+            "activity": "Relax and Explore Central Park",
+            "placeName": "Central Park",
+            "placeDetails": "Step out of The Met and into this massive urban park. Walk to Bethesda Terrace and Fountain, rent a rowboat on The Lake, pay respects at Strawberry Fields, or simply find a bench and enjoy the scenery. It's the perfect romantic escape from the city bustle.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1558595219-c5c31709e4a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7851,
+              "longitude": -73.9683
+            },
+            "ticketPrice": "Free (activities like boat rentals are extra)",
+            "travelTimeToNextLocation": "25 minutes by subway"
+          },
+          {
+            "timeOfDay": "Evening (5:00 PM onwards)",
+            "activity": "Discover Greenwich Village",
+            "placeName": "Greenwich Village",
+            "placeDetails": "Get lost in the charming, leafy streets of the Village. Start at Washington Square Park with its famous arch. Explore the historic townhouses and find a cozy spot for dinner. For a memorable night, catch a jazz show at a legendary club like the Blue Note or Village Vanguard.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1620392364539-491b72b4a8e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7308,
+              "longitude": -73.9973
+            },
+            "ticketPrice": "Free to explore; Dinner/Show varies",
+            "travelTimeToNextLocation": "N/A"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "theme": "SoHo Stroll & Departure",
+        "schedule": [
+          {
+            "timeOfDay": "Morning (9:30 AM - 12:00 PM)",
+            "activity": "Check out & Explore SoHo",
+            "placeName": "SoHo (South of Houston Street)",
+            "placeDetails": "Check out of your hotel (they can hold your bags). Head to SoHo to admire the iconic cast-iron architecture. It's a premier shopping district with everything from high-end boutiques to unique shops. Perfect for window shopping and soaking up the trendy atmosphere.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1601422407424-2d909b2b7376?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7247,
+              "longitude": -73.9980
+            },
+            "ticketPrice": "Free to explore",
+            "travelTimeToNextLocation": "15 minutes walk or subway"
+          },
+          {
+            "timeOfDay": "Afternoon (12:00 PM - 2:00 PM)",
+            "activity": "Last New York Lunch",
+            "placeName": "Nolita or SoHo",
+            "placeDetails": "Enjoy a final delicious meal in NYC. SoHo has countless options, or you can walk over to the adjacent Nolita (North of Little Italy) neighborhood for slightly more quaint and cozy restaurants.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+            "geoCoordinates": {
+              "latitude": 40.7221,
+              "longitude": -73.9951
+            },
+            "ticketPrice": "Approx. $25 - $50 per person",
+            "travelTimeToNextLocation": "Varies based on hotel location"
+          },
+          {
+            "timeOfDay": "Afternoon (2:00 PM onwards)",
+            "activity": "Travel to Airport for Departure",
+            "placeName": "Hotel to JFK",
+            "placeDetails": "Return to your hotel to pick up your luggage. Allow plenty of time (at least 1.5 - 2 hours) to travel back to JFK Airport for your flight home, concluding your amazing New York City adventure.",
+            "placeImageUrl": "https://images.unsplash.com/photo-1532187644139-5e5b3834a26c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+            "geoCoordinates": {
+              "latitude": 40.6413,
+              "longitude": -73.7781
+            },
+            "ticketPrice": "Varies (Taxi ~$75, Subway ~$11)",
+            "travelTimeToNextLocation": "N/A"
+          }
+        ]
+      }
+    ]
+  }
+}
+}
