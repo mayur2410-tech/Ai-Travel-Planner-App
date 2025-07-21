@@ -6,7 +6,7 @@ import { initializeAuth, getReactNativePersistence } from 'firebase/auth/react-n
 import { getFirestore } from "firebase/firestore";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 const firebaseConfig = {
-  apiKey: "AIzaSyBfn_39SwihVJknAYNyAibbt5x-xKRKg-A",
+  apiKey: process.env.firebase_api,
   authDomain: "ai-travel-planner-29821.firebaseapp.com",
   projectId: "ai-travel-planner-29821",
   storageBucket: "ai-travel-planner-29821.appspot.com",
